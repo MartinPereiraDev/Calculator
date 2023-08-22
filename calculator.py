@@ -1,8 +1,6 @@
 from tkinter import *
 
 
-
-
 """ function add 
     get : n1, n2
     return: n1 + n2
@@ -10,7 +8,6 @@ from tkinter import *
 def add():
     result.set( float(n1.get()) + float(n2.get()) )
     delete()
-
 
 """ function subtract
     get : n1, n2
@@ -20,14 +17,25 @@ def subtract():
     result.set( float(n1.get()) - float(n2.get()) )
     delete()
 
-def multiple():
+""" function multiply
+    get : n1, n2
+    return: n1 * n2
+"""
+def multiply():
     result.set( float(n1.get()) * float(n2.get()) )
     delete()
 
-def split():
+""" function division
+    get : n1, n2
+    return: n1 / n2
+"""
+def division():
     result.set( float(n1.get()) / float(n2.get()) )
     delete()
 
+""" function delete
+    clear variable
+"""
 def delete():
     n1.set("")
     n2.set("")
@@ -47,20 +55,21 @@ result = StringVar()
 
 
 
-Entry(root, justify="center", textvariable=n1).pack(pady=5)
+Entry(root, justify="center", textvariable=n1).pack(pady=5, expand=1)
+
+Entry(root, justify="center", textvariable=n2).pack(pady=5, expand=1)
 
 
+Label(root,text="=").pack( expand=1)
 
-Entry(root, justify="center", textvariable=n2).pack(pady=5)
-
-Label(root,text="=").pack()
-Entry(root, justify="center", textvariable=result, state="disabled").pack(padx=10)
+Entry(root, justify="center", textvariable=result, state="disabled").pack(padx=10, expand=1)
 
 #Button
-Button(root, background="white", font="bold", text="+", command=add).pack(side="left", padx=5)
-Button(root, background="white", font="bold", text="-", command=subtract).pack(side="left", padx=5)
-Button(root, background="white", font="bold", text="*", command=multiple).pack(side="left", padx=5)
-Button(root, background="white", font="bold", text="/", command=split).pack(side="left", padx=5)
+
+Button(root, background="white", fg="blue", font="bold", text="+", command=add).pack(side="left", padx=5, expand=1)
+Button(root, background="white", fg="blue", font="bold", text="-", command=subtract).pack(side="left", padx=5, expand=1)
+Button(root, background="white", fg="blue", font="bold", text="*", command=multiply).pack(side="left", padx=5, expand=1)
+Button(root, background="white", fg="blue", font="bold", text="/", command=division).pack(side="left", padx=5, expand=1)
 
 
 
