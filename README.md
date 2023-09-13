@@ -7,6 +7,7 @@
 Clone the repository or download the project files.
 input numbers and select the desired operation.
 The result will be displayed in real-time at the top of the calculator.
+<br>
 
 
 <br>
