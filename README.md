@@ -5,7 +5,7 @@
 
 <h2>Technologies Used </h2>
 <li> Python: Used to function the calculator. </li>
-<li> Tkinter: Used to interface displa </li>
+<li> Tkinter: Used to interface display </li>
 <br>
 
 <h2> How to Use </h2>
