@@ -9,9 +9,9 @@
 <br>
 
 <h2> How to Use </h2>
-Clone the repository or download the project files.
-input numbers and select the desired operation.
-The result will be displayed in real-time at the top of the calculator.
+<li>Clone the repository or download the project files. </li>
+<li>input numbers and select the desired operation. </li>
+<li>The result will be displayed in real-time at the top of the calculator.</li>
 <br>
 
 
