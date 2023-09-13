@@ -3,6 +3,11 @@
 <b> Basic calculator created with Python and GUI with Tkinter module. </b>
 <br>
 
+<h2>Technologies Used </h2>
+<li> Python: Used to function the calculator. </li>
+<li> Tkinter: Used to interface displa </li>
+<br>
+
 <h2> How to Use </h2>
 Clone the repository or download the project files.
 input numbers and select the desired operation.
