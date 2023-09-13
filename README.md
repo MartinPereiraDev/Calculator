@@ -1,13 +1,14 @@
 # Calculator
 <h1> Python and GUI with Tkinter module </h1>
-
+<b> Basic calculator created with Python and GUI with Tkinter module. </b>
+<br>
 
 <h2> How to Use </h2>
 Clone the repository or download the project files.
 input numbers and select the desired operation.
 The result will be displayed in real-time at the top of the calculator.
 
-<b> Basic calculator created with Python and GUI with Tkinter module. </b>
+
 <br>
 docs: https://docs.python.org/3/library/tkinter.html#tkinter-modules
 <br>
